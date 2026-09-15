@@ -1,0 +1,14 @@
+{
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/dist/(.*)",
+      "destination": "/$1"
+    },
+    {
+      "source": "/dist",
+      "destination": "/"
+    }
+  ]
+}
